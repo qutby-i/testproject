@@ -1,0 +1,42 @@
+Listet die Dateien und Unterverzeichnisse eines Verzeichnisses auf.
+
+DIR [Laufwerk:][Pfad][Dateiname] [/A[[:]Attribute]] [/B] [/C] [/D] [/L] [/N]
+  [/O[[:]Folge]] [/P] [/Q] [/R] [/S] [/T[[:]Zeit]] [/W] [/X] [/4]
+
+  [Laufwerk:][Pfad][Dateiname]
+             Bezeichnet Laufwerk, Verzeichnis und/oder Dateien.
+
+  /A         Listet Dateien mit angegebenen Attributen auf.
+  Attribute   D Verzeichnisse        R SchreibgeschÅtzte Dateien
+              H Versteckte Dateien   A Zu archivierende Dateien
+              S Systemdateien        I Nicht indizierte Dateien
+              L  Analysepunkte       - vorangestellt kehrt die Bedeutung um.
+  /B         Einfaches Format (keine Kopfdaten, keine Zusammenfassung).
+  /C         Zeigt das Tausendertrennzeichen bei Dateigrî·en an (Standard-
+             einstellung). Verwenden Sie /-C, um das Tausendertrennzeichen
+             nicht anzuzeigen.
+  /D         Gleich wie Breitformat, jedoch nach Spalten sortiert.
+  /L         Verwendet Kleinschreibung.
+  /N         Neues, langes Listenformat (Dateinamen auf der rechten Seite).
+  /O         Gibt die Liste sortiert aus.
+  Folge       N Name (alphabetisch)           S Grî·e (kleinere zuerst)
+              E Erweiterung (alphabetisch)    D Datum/Zeit (Ñltere zuerst)
+              G Verzeichnisse zuerst          - vorangestellt kehrt die
+                                                Reihenfolge um
+  /P         Pausiert nach jeder vollen Bildschirmseite.
+  /Q         Gibt den Besitzer der Datei aus.
+  /R         Zeigt alternative Datenstrîme der Datei an.
+  /S         Listet Dateien und alle Unterverzeichnisse auf.
+  /T         Bestimmt welche Zeit verwendet wird (nur fÅr NTFS).
+  Zeit        C  Erstellung
+              A  Letzter Zugriff
+              W  Letzter Schreibzugriff
+  /W         Verwendet Breitformat fÅr die Auflistung.
+  /X         Zeigt die Kurznamen fÅr Dateien mit Nicht-8Punkt3-Namen an.
+             Das Format ist das gleiche wie bei /N, wobei der Kurzname vor
+             dem Langnamen eingefÅgt wird. Wenn kein Kurzname vorhanden ist,
+             werden Leerzeichen angezeigt.
+  /4         Zeigt das Jahr vierstellig an.
+
+Optionen kînnen in der Umgebungsvariablen DIRCMD voreingestellt werden.
+"-" vor einer Option setzt die Voreinstellung au·er Kraft, z. B. DIR /-W.
