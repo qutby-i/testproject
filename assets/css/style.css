@@ -1,0 +1,11 @@
+/*
+  CSS file created on Github
+*/
+html, body{
+  margin: 0 auto;
+  padding: 0;
+  min-width: 480px;
+  max-width: 960px; 
+  border: 1.25px solid crimson;
+  color: darkblue;
+}
