@@ -1,4 +1,4 @@
-git status - 
+git status -
 
 git commit -m "Erste Datei wurde hinzugefügt"
 
@@ -13,3 +13,5 @@ http://www.selflinux.org/selflinux/pdf/vim.pdf
 
 Nach Veränderungen sieht alles etwas anders aus! So auch hier.
 Finde die Veränderung! Du erhälst ..
+
+Eine Änderung in/aus der <temp-branch> - fine.
